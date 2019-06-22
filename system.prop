@@ -7,7 +7,7 @@ ro.control_privapp_permissions=log
 
 # Fingerprint
 persist.vendor.sys.fp.fod.location.X_Y=452,1970
-persist.vendor.sys.fp.fod.size.width_height=190,174
+persist.vendor.sys.fp.fod.size.width_height=190,190
 
 # VoLTE
 persist.dbg.ims_volte_enable=1
