@@ -35,9 +35,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-	Snap \
-	vendor.lineage.camera.motor@1.0 \
-	vendor.lineage.camera.motor@1.0-service.oneplus_msmnile
+	Snap
 
 # Common init scripts
 PRODUCT_PACKAGES += \
