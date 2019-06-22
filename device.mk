@@ -10,12 +10,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/oneplus/guacamole/guacamole-vendor.mk)
+$(call inherit-product-if-exists, vendor/oneplus/guacamoleb/guacamoleb-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
 	$(LOCAL_PATH)/overlay \
-	$(LOCAL_PATH)/overlay-lineage \
+	$(LOCAL_PATH)/overlay-lineage
 
 # AID/fs configs
 PRODUCT_PACKAGES += \
@@ -37,7 +37,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
 	Snap \
 	vendor.lineage.camera.motor@1.0 \
-	vendor.lineage.camera.motor@1.0-service.oneplus_msmnile \
+	vendor.lineage.camera.motor@1.0-service.oneplus_msmnile
 
 # Common init scripts
 PRODUCT_PACKAGES += \
@@ -51,6 +51,7 @@ PRODUCT_PACKAGES += \
 # Fingerprint
 PRODUCT_COPY_FILES += \
 	frameworks/native/data/etc/android.hardware.fingerprint.xml:system/etc/permissions/android.hardware.fingerprint.xml
+
 PRODUCT_PACKAGES += \
 	android.hardware.biometrics.fingerprint@2.1-service \
 	vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.oneplus_msmnile
@@ -70,7 +71,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/keylayout/fpc1020.kl:system/usr/keylayout/fpc1020.kl \
 	$(LOCAL_PATH)/keylayout/gf_input.kl:system/usr/keylayout/gf_input.kl \
-	$(LOCAL_PATH)/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
+	$(LOCAL_PATH)/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl
 
 # Lights
 PRODUCT_PACKAGES += \
@@ -135,7 +136,7 @@ AB_OTA_PARTITIONS += \
 	boot \
 	dtbo \
 	system \
-	vbmeta \
+	vbmeta
 
 AB_OTA_POSTINSTALL_CONFIG += \
 	RUN_POSTINSTALL_system=true \

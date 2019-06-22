@@ -5,7 +5,7 @@
 #
 
 BOARD_VENDOR := oneplus
-DEVICE_PATH := device/oneplus/guacamole
+DEVICE_PATH := device/oneplus/guacamoleb
 
 # Architecture
 TARGET_ARCH := arm64
@@ -26,7 +26,7 @@ ENABLE_CPUSETS := true
 ENABLE_SCHEDBOOST := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := OnePlus7Pro
+TARGET_OTA_ASSERT_DEVICE := OnePlus7
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := sm8150
