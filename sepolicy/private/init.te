@@ -1,0 +1,2 @@
+allow init sysfs_graphics:file { open read write };
+#allow init sysfs:file read;

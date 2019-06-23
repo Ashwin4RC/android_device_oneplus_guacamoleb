@@ -8,3 +8,5 @@
 
 # tri-state-key
 /system/bin/tri-state-key_daemon          u:object_r:tri-state-key_daemon_exec:s0
+
+/sys/devices/platform/soc/ae00000\.qcom,mdss_mdp/drm/card0/card0-DSI-1/hbm_status     u:object_r:sysfs_graphics:s0
