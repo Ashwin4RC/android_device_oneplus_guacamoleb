@@ -159,4 +159,12 @@ public class KeyHandler implements DeviceKeyHandler {
             }
         });
     }
+
+    public void handleNavbarToggle(boolean enabled) {
+        // do nothing
+    }
+
+    public boolean canHandleKeyEvent(KeyEvent event) {
+        return false;
+    }
 }
