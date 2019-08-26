@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/carbon_guacamole.mk
+    $(LOCAL_DIR)/carbon_guacamoleb.mk
