@@ -25,3 +25,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fstab.qcom \
     init.display.hotdog.rc
+
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
