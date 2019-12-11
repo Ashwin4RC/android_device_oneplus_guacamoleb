@@ -48,6 +48,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_RAMDISK)/fstab.qcom
 
+# Notch hide
+PRODUCT_PACKAGES += \
+    NoCutoutOverlay
+
 # tri-state key
 PRODUCT_PACKAGES += \
     tri-state-key-calibrate_daemon
