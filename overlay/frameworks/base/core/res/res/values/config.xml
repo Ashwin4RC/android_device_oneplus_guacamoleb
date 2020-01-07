@@ -343,7 +343,7 @@
     <integer translatable="false" name="config_brightness_ramp_rate_fast">400</integer>
 
     <!-- Radius of the software rounded corners. -->
-    <dimen name="rounded_corner_radius">42px</dimen>
+    <dimen name="rounded_corner_radius">45px</dimen>
 
     <string translatable="false" name="config_mainBuiltInDisplayCutout">
         M -185,0
@@ -369,5 +369,9 @@
         V 0
         Z
     </string>
+
+    <!-- Radius of the software rounded corners at the bottom of the display
+         in its natural orientation. If zero, the value of rounded_corner_radius is used. -->
+    <dimen name="rounded_corner_radius_bottom">100px</dimen>
 
 </resources>
