@@ -18,7 +18,7 @@
 set -e
 
 # Required!
-export DEVICE=hotdogb
+export DEVICE=guacamoleb
 export DEVICE_COMMON=sm8150-common
 export VENDOR=oneplus
 

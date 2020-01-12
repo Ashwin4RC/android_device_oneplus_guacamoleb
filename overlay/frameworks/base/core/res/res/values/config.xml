@@ -378,9 +378,9 @@
          config_mainBuiltInDisplayCutout
          -->
     <string name="config_mainBuiltInDisplayCutoutRectApproximation">
-        M -60,0
-        V 67.9
-        H 60
+        M -85,0
+        V 79
+        H 85
         V 0
         Z
     </string>
