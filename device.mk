@@ -26,3 +26,7 @@ PRODUCT_COPY_FILES += \
 # Device init scripts
 PRODUCT_PACKAGES += \
     fstab.qcom
+
+# Tri-state-key-calibrate_daemon
+PRODUCT_PACKAGES += \
+    tri-state-key-calibrate_daemon
