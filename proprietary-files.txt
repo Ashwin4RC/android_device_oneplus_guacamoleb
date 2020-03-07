@@ -131,6 +131,7 @@ vendor/lib/libvidhance.so
 vendor/lib/libvl53l1_daemon.so
 vendor/lib/libyuv_watermark.so
 vendor/lib/sensors.hal.tof.so
+vendor/lib/vendor.oneplus.hardware.translation@1.0.so|55c5688d49137b743ed835183dae09236e6ea770
 vendor/lib64/camera/fdconfigpreview.bin
 vendor/lib64/camera/fdconfigpreviewlite.bin
 vendor/lib64/camera/fdconfigvideo.bin
@@ -253,6 +254,7 @@ vendor/lib64/libvidhance.so
 vendor/lib64/libvl53l1_daemon.so
 vendor/lib64/libyuv_watermark.so
 vendor/lib64/sensors.hal.tof.so
+vendor/lib64/vendor.oneplus.hardware.translation@1.0.so|5b57810163a515065f3ae8144e6b021cbd0fbd86
 
 # Camera firmware
 vendor/firmware/CAMERA_ICP.elf
